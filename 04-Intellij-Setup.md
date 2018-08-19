@@ -52,3 +52,9 @@ GET     /test/                      controllers.Test.index()
 GET     /test/create                controllers.Test.create()
 GET     /test/save                  controllers.Test.save(name: String)
 GET     /test/remove                controllers.Test.remove(id: Long)
+
+    <ul>
+        /*@for(test: model.Test <- tests){
+            <li>@test.getName </li>
+        }*/
+    </ul>
