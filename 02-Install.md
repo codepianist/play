@@ -13,3 +13,4 @@ sudo apt-get install sbt
 ```
 <b/>
 
+(https://bgasparotto.com/play/install-play-framework-2-6)
